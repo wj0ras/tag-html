@@ -4,32 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/card.css">
     <script src="src/components/CardNews.js" defer></script>
-    <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 <body>
 
-    <titulo-dinamico titulo="oi"></titulo-dinamico>
-    <titulo-dinamico></titulo-dinamico>
-
-    <div class="container">
-
-        <div class="card">
-            <div class="card__left">
-                <span>Welison Joras</span>
-                <a href="#">A procura do procurado</a>
-                <p>a procurar o procurando do procurado</p>
-            </div>
-            <div class="card__right">
-                <img src="angular.png" alt="">
-            </div>
-        </div>
-        
-
-    </div>
-
-    <card-news></card-news>
+    <card-news 
+        autor="Welison"
+        title="Hello World"
+        link-url = "google.com"
+        content="A procura dos procurado que estao procurando"
+        img
+    ></card-news>
     
 </body>
 </html>
